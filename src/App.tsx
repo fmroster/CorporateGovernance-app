@@ -1,8 +1,9 @@
 import React from 'react'
+import { createBrowserRouter, RouterProvider } from 'react-router'
+import { routes } from 'routes'
 
 export const App: React.FC = () => {
-
   return (
-    <div> hello worl</div>
+    <RouterProvider router={createBrowserRouter(routes)} />
   )
 }
