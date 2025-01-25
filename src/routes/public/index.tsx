@@ -1,5 +1,5 @@
 import React from 'react'
-import { Login } from 'pages/auth/login'
+import { Login, ResetPassword, SignUp } from 'features/authentication/pages'
 
 export const publicRoutes = [
   {
@@ -9,9 +9,15 @@ export const publicRoutes = [
     )
   },
   {
-    path: '/',
+    path: '/reset-password',
     element: (
-      <Login />
+      <ResetPassword />
+    )
+  },
+  {
+    path: '/sign-up',
+    element: (
+      <SignUp />
     )
   }
 ]

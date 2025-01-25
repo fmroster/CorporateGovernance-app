@@ -18,8 +18,8 @@ export const Layouts: React.FC<TextProp> = ({
                                            onClick,
                                          }) => {
   const classMappings = {
-    body: 'w-full h-screen flex flex-col items-center justify-center overflow-x-hidden',
-    container: 'max-w-1500 mx-auto p-4 p-8 flex flex-col items-center justify-center',
+    container: 'w-full h-screen flex flex-col items-center px-4 overflow-x-hidden',
+    body: 'max-w-[1500px] w-full mx-auto px-4',
     box: 'p-4',
   }
 
